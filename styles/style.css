@@ -1,31 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
     /* font-family: 'Open Sans', sans-serif; */
     /* background-color: aqua; */
 }
-header{
+
+header {
     /* Only background color for header part  */
     background: rgba(229, 84, 115, 0.10);
 }
-.container{
+
+.container {
     width: 75%;
     max-width: 1440;
     margin: 0 auto;
 
 }
+
 /* Divided container into two parts in horizontal line use this */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner .banner-text *{
+
+.banner .banner-text * {
     margin-bottom: 32px;
     max-width: 525px;
 }
+
 .banner .banner-text h1 {
     color: #272727;
     font-family: Lato;
@@ -33,12 +39,13 @@ header{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-     
+
 }
-button{
+
+button {
     color: #FFF;
     border-radius: 8px;
-    background:rgb(236, 52, 28);
+    background: rgb(236, 52, 28);
     border: none;
     font-size: 20px;
     padding: 15px 28px;
@@ -46,18 +53,76 @@ button{
     transition: all 1s;
 
 }
-button :hover{
+
+button :hover {
     background-color: #9dd809;
 }
-p{
+
+p {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    /* 166.667% */
 }
-.banner .banner-image img{
+
+.banner .banner-image img {
     width: 100%;
     vertical-align: middle;
+}
+
+/* common section heading css style */
+.section-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    max-width: 500px;
+    padding-top: 100px;
+    margin: 20px auto;
+    /* font-style: normal;
+    font-weight: 800;
+    line-height: normal; */
+
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#featured {
+    padding: 100px 0;
+    /* all featured item gives padding top and bottom 100px */
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    /* Using space between two or more content. */
+    align-items: end;  
+    /* child content position to the end i.e- pink flower tree */
+    gap: 20px;
+}
+
+.section-content .flower-box .flower-img {
+    border-radius: 300px 300px 0px 0px;
+}
+
+.section-content .flower-box .flower-img .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower-box .flower-img .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower-box .flower-img .green {
+    background: rgba(71, 125, 17, 0.15);
 }
