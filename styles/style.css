@@ -145,3 +145,37 @@ p {
     text-decoration-line: underline;
     /* giving text underline */
 }
+
+/* for third part */
+
+.delivery-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.delivery-content .delivery-img {
+    display: flex;
+    padding: 0 0 0 100px;
+    margin-left: 60px;
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+.delivery-content .delivery-person p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    
+}
+
+#delivery {
+    padding: 100px 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 75%;
+    max-width: 1440;
+    margin: 100px auto;
+}
