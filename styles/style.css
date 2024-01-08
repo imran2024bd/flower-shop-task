@@ -106,23 +106,29 @@ p {
     display: flex;
     justify-content: space-between;
     /* Using space between two or more content. */
-    align-items: end;  
+    align-items: end;
     /* child content position to the end i.e- pink flower tree */
     gap: 20px;
 }
 
 .section-content .flower-box .flower-img {
     border-radius: 300px 300px 0px 0px;
+    padding: 30px 20px 0;
+    background-color: indianred;
+    height: 500px;
+    display: flex;
+    align-items: end;
 }
 
-.section-content .flower-box .flower-img .pink {
+.section-content .flower-box  .pink {
     background: rgba(167, 33, 98, 0.15);
+
 }
 
-.section-content .flower-box .flower-img .blue {
+.section-content .flower-box  .blue {
     background: rgba(5, 151, 160, 0.15);
 }
 
-.section-content .flower-box .flower-img .green {
+.section-content .flower-box  .green {
     background: rgba(71, 125, 17, 0.15);
 }
