@@ -47,7 +47,7 @@ button{
 
 }
 button :hover{
-    background-color: rgb(24, 196, 61);
+    background-color: #9dd809;
 }
 p{
     color: rgba(39, 39, 39, 0.60);
